@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: calc(100% - 150px);
+    margin: 0 auto;
+}
+
+button {
+    margin: 0 auto;
+    padding: 12px 17px;
+    color: white;
+    background: #ff006a;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+.first-input {
+    display: block;
+    background: none;
+    width: 580px;
+    margin: 50px auto;
+    border: none;
+    border-bottom: 1px solid #949191;
+    padding: 0 0 10px 0;
+    text-align: center;
+    font-size: 17px;
+    outline: none;
+}
+
+.flex-and-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fade {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.main-title {
+    text-align: center;
+    color: rgb(36, 35, 35);
+    font-size: 45px;
+}
+
+.sub-title {
+    width: 550px;
+    margin: 30px auto;
+    color: rgb(80, 79, 79);
+    text-align: center;
+}
+
+.transition-all {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+
+
+
+
+
+
+
+.first-section {
+    height: 650px;
+    width: 100%;
+    margin: 0 0 100px 0;
+    background: url("/images/donation8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contents {
+    width: 800px;
+    color: white;
+    text-align: center;
+}
+
+.contents h1 {
+    font-size: 52px;
+}
+
+.contents p {
+    font-size: 17px;
+    width: 550px;
+    margin: 0 auto;
+}
+
+.contents button {
+    margin: 40px 0;
+}
+
+
+.pricing {
+    height: 110px;
+}
+
+.pricing-item {
+    width: 140px;
+    height: 100%;
+    font-size: 24px;
+    background: #e4e6e6;
+    margin: 15px;
+    color: #646262;
+    font-weight: bold;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+
+.pricing-item:nth-child(2) {
+    color: #ff006a;
+    background: #f2dacd;
+    border: 2px solid #ff006a;
+}
+
+
+.item {
+    width: 250px;
+    margin: 10px;
+    padding: 40px;
+    border-radius: 1px;
+}
+
+.item:nth-child(1) {
+    background: #cef1d2;
+}
+
+.item:nth-child(2) {
+    background: #f1ceed;
+}
+
+.item:nth-child(3) {
+    background: #f1edce;
+}
+
+.item h5 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.item p {
+    color: gray;
+}
+
+article {
+    margin: 100px;
+}
+
+.article-text {
+    width: 50%;
+}
+
+.article-text p {
+    color: #646262;
+}
+
+.article-image {
+    width: 50%;
+    border-radius: 2px;
+}
+
+.article-image img {
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.article-text h1 {
+    font-size: 38px;
+
+}
+
+.subscribe-section {
+    width: 550px;
+    margin: 100px auto;
+}
+
+.input-email {
+    margin: 0 0 120px 0;
+    padding: 80px;
+    border-radius: 1px;
+    background: #f4e4db;
+}
+
+.input-email button {
+    padding: 10px 17px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.input-email input {
+    padding: 12px;
+    background: #c7c4c4;
+    border: none;
+    outline: none;
+    width: 400px;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background: #0a0a0e;
+    text-align: center
+}
+
+.footer-logo h3 {
+    color: #c21a1a;
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-family: 'Playball', cursive;
+}
+
+.footer-logo p {
+    color: #c7c4c4;
+    font-size: 12px;
+}
